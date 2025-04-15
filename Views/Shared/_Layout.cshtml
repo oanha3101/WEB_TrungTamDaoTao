@@ -20,9 +20,9 @@
             </div>
             <ul class="nav-menu">
                 <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-                <li><a href="#">Khóa học</a></li>
+                <li><a asp-controller="Course" asp-action="Index">Khoá học</a></li>
                 <li><a href="#">Tính năng</a></li>
-                <li><a href="#">Giới thiệu</a></li>
+                <li><a asp-controller="Review" asp-action="Index">Giới thiệu</a></li>
                 <li><a href="#">Liên hệ</a></li>
             </ul>
             <div class="auth-buttons">
@@ -47,7 +47,7 @@
                         <div class="logo-circle">E</div>
                         <div class="logo-text">EduManager</div>
                     </div>
-                    <p style="padding: 15px;">Nền tảng quản lý đào tạo hiện đại, giúp tối ưu hóa quy
+                    <p style="padding: 30px;">Nền tảng quản lý đào tạo hiện đại, giúp tối ưu hóa quy
                         trình quản lý
                         khóa học và học viên.</p>
                     <div class="social-icons">
@@ -77,9 +77,8 @@
                 <div class="footer-column">
                     <h3>Liên kết nhanh</h3>
                     <ul class="footer-links">
-                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a>
-                        </li>
-                        <li><a href="#">Khóa học</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">Trang chủ</a></li>
+                        <li><a asp-controller="Course" asp-action="Index">Khoá học</a></li>
                         <li><a href="#">Giới thiệu</a></li>
                         <li><a href="#">Liên hệ</a></li>
                         <li><a href="#">Blog</a></li>

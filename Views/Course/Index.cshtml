@@ -1,0 +1,607 @@
+@{
+    ViewData["Title"] = "EduManager - Cổng học trực tuyến";
+}
+
+@{
+    <link rel="stylesheet" href="~/css/course.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+}
+
+<!-- Main Content -->
+<main>
+    <div class="container">
+        <h1 class="page-title">Khóa học</h1>
+
+        <!-- Search and Filter -->
+        <div class="search-filter-container">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Tìm kiếm khóa học...">
+            </div>
+            <button class="filter-button">
+                <i class="fas fa-filter"></i>
+                Lọc khóa học
+            </button>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="category-filters">
+            <button class="category-btn active">Tất cả</button>
+            <button class="category-btn">Lập trình</button>
+            <button class="category-btn">Web</button>
+            <button class="category-btn">Database</button>
+            <button class="category-btn">Mobile</button>
+            <button class="category-btn">AI</button>
+            <button class="category-btn">Security</button>
+        </div>
+
+        <!-- Video Tutorial Section -->
+        <section class="video-tutorial">
+            <h2 class="section-title">Hướng dẫn đăng ký khóa học</h2>
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <div class="video-placeholder" id="videoPlaceholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Xem video hướng dẫn</span>
+                    </div>
+
+                    <iframe width="1200" height="450"
+                        src="https://www.youtube.com/embed/CL13X-8o4h0?si=uin0ekT4Z_X0Uypu" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+                </div>
+                <div class="video-description">
+                    <h3 class="video-title">Quy trình đăng ký khóa học đơn giản</h3>
+                    <p>Video này sẽ hướng dẫn bạn cách đăng ký khóa học tại EduManager một cách nhanh chóng và dễ dàng.
+                        Chỉ với vài bước đơn giản, bạn đã có thể bắt đầu hành trình học tập của mình.</p>
+                </div>
+                <div class="video-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Tìm kiếm khóa học</h4>
+                            <p>Sử dụng thanh tìm kiếm hoặc bộ lọc để tìm khóa học phù hợp</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Xem thông tin chi tiết</h4>
+                            <p>Nhấn vào nút "Chi tiết" để xem thông tin đầy đủ về khóa học</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Đăng ký và thanh toán</h4>
+                            <p>Nhấn "Đăng ký" và hoàn tất quá trình thanh toán</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Bắt đầu học</h4>
+                            <p>Truy cập vào tài khoản và bắt đầu khóa học của bạn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses -->
+        <h2 class="section-title">Khóa học nổi bật</h2>
+        <div class="courses-grid">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="course-badge">Còn chỗ</div>
+                <div class="course-image">
+                    <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+
+                </div>
+                <div class="course-content">
+                    <div style="display: flex; justify-content: flex-end;">
+                        <span class="course-category">Lập trình</span>
+                    </div>
+
+                    <h3 class="course-title">Lập trình cơ bản</h3>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Giảng viên:</span>
+                            <span>Nguyễn Văn A</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ngày khai giảng:</span>
+                            <span>15/05/2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Học phí:</span>
+                            <span>2,500,000 VND</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Sĩ số:</span>
+                            <span>15/30</span>
+                        </div>
+                    </div>
+                    <p>Khóa học cung cấp kiến thức cơ bản về lập trình cho người mới bắt đầu.</p>
+                </div>
+                <div class="course-footer">
+                    <div class="action-buttons">
+                        <a href="#" class="btn-details">Chi tiết</a>
+                        <a href="#" class="btn-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="course-badge">Còn chỗ</div>
+                <div class="course-image">
+                    <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                </div>
+                <div class="course-content">
+                    <div style="display: flex; justify-content: flex-end;">
+                        <span class="course-category">Web</span>
+                    </div>
+
+                    <h3 class="course-title">Lập trình Web</h3>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Giảng viên:</span>
+                            <span>Trần Thị B</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ngày khai giảng:</span>
+                            <span>20/05/2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Học phí:</span>
+                            <span>3,000,000 VND</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Sĩ số:</span>
+                            <span>20/25</span>
+                        </div>
+                    </div>
+                    <p>Khóa học giúp học viên nắm vững kỹ năng phát triển website với HTML, CSS và JavaScript.</p>
+                </div>
+                <div class="course-footer">
+                    <div class="action-buttons">
+                        <a href="#" class="btn-details">Chi tiết</a>
+                        <a href="#" class="btn-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="course-badge">Còn chỗ</div>
+                <div class="course-image">
+                    <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                </div>
+                <div class="course-content">
+                    <div style="display: flex; justify-content: flex-end;">
+                        <span class="course-category">Database</span>
+                    </div>
+
+                    <h3 class="course-title">Cơ sở dữ liệu</h3>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Giảng viên:</span>
+                            <span>Lê Văn C</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ngày khai giảng:</span>
+                            <span>01/06/2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Học phí:</span>
+                            <span>2,800,000 VND</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Sĩ số:</span>
+                            <span>10/20</span>
+                        </div>
+                    </div>
+                    <p>Khóa học về thiết kế và quản lý cơ sở dữ liệu SQL và NoSQL.</p>
+                </div>
+                <div class="course-footer">
+                    <div class="action-buttons">
+                        <a href="#" class="btn-details">Chi tiết</a>
+                        <a href="#" class="btn-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course-card">
+                <div class="course-badge">Còn chỗ</div>
+                <div class="course-image">
+                    <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                </div>
+                <div class="course-content">
+                    <div style="display: flex; justify-content: flex-end;">
+                        <span class="course-category">Mobile</span>
+                    </div>
+
+                    <h3 class="course-title">Phát triển ứng dụng Mobile</h3>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Giảng viên:</span>
+                            <span>Phạm Thị D</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ngày khai giảng:</span>
+                            <span>10/06/2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Học phí:</span>
+                            <span>3,500,000 VND</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Sĩ số:</span>
+                            <span>12/20</span>
+                        </div>
+                    </div>
+                    <p>Khóa học phát triển ứng dụng di động trên nền tảng Android và iOS.</p>
+                </div>
+                <div class="course-footer">
+                    <div class="action-buttons">
+                        <a href="#" class="btn-details">Chi tiết</a>
+                        <a href="#" class="btn-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="course-card">
+                <div class="course-badge">Còn chỗ</div>
+                <div class="course-image">
+                    <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                </div>
+                <div class="course-content">
+                    <div style="display: flex; justify-content: flex-end;">
+                        <span class="course-category">AI</span>
+                    </div>
+
+                    <h3 class="course-title">Trí tuệ nhân tạo</h3>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Giảng viên:</span>
+                            <span>Hoàng Văn E</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ngày khai giảng:</span>
+                            <span>15/06/2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Học phí:</span>
+                            <span>4,000,000 VND</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Sĩ số:</span>
+                            <span>8/15</span>
+                        </div>
+                    </div>
+                    <p>Khóa học về trí tuệ nhân tạo, machine learning và deep learning.</p>
+                </div>
+                <div class="course-footer">
+                    <div class="action-buttons">
+                        <a href="#" class="btn-details">Chi tiết</a>
+                        <a href="#" class="btn-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="course-card">
+                <div class="course-badge">Còn chỗ</div>
+                <div class="course-image">
+                    <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                </div>
+                <div class="course-content">
+                    <div style="display: flex; justify-content: flex-end;">
+                        <span class="course-category">AI</span>
+                    </div>
+
+                    <h3 class="course-title">An ninh mạng</h3>
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <span class="meta-label">Giảng viên:</span>
+                            <span>Ngô Văn F</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Ngày khai giảng:</span>
+                            <span>20/06/2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Học phí:</span>
+                            <span>3,800,000 VND</span>
+                        </div>
+                        <div class="meta-item">
+                            <span class="meta-label">Sĩ số:</span>
+                            <span>5/15</span>
+                        </div>
+                    </div>
+                    <p>Khóa học về bảo mật thông tin, an ninh mạng và phòng chống tấn công.</p>
+                </div>
+                <div class="course-footer">
+                    <div class="action-buttons">
+                        <a href="#" class="btn-details">Chi tiết</a>
+                        <a href="#" class="btn-register">Đăng ký</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instructors Section -->
+        <section class="instructors-section">
+            <h2 class="section-title">Giảng viên nổi bật</h2>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="~/images/Avata1.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Nguyễn Văn A</h3>
+                        <p class="instructor-title">Chuyên gia Lập trình</p>
+                        <p class="instructor-bio">Hơn 10 năm kinh nghiệm trong lĩnh vực phát triển phần mềm và giảng
+                            dạy.</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="~/images/Avata2.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Trần Thị B</h3>
+                        <p class="instructor-title">Chuyên gia Web Development</p>
+                        <p class="instructor-bio">Chuyên gia về phát triển web với nhiều dự án thực tế cho các công
+                            ty lớn.</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="~/images/Avata3.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Lê Văn C</h3>
+                        <p class="instructor-title">Chuyên gia Database</p>
+                        <p class="instructor-bio">Chuyên gia về cơ sở dữ liệu với kinh nghiệm làm việc tại các tập
+                            đoàn công nghệ hàng đầu.</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="~/images/Avata4.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                    </div>
+                    <div class="instructor-info">
+                        <h3>Hoàng Văn E</h3>
+                        <p class="instructor-title">Chuyên gia AI</p>
+                        <p class="instructor-bio">Tiến sĩ về Trí tuệ nhân tạo với nhiều công trình nghiên cứu được
+                            công bố quốc tế.</p>
+                        <div class="instructor-social">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <h2 class="section-title">Học viên nói gì về chúng tôi</h2>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Khóa học Lập trình Web tại EduManager đã giúp tôi từ một người
+                        không
+                        biết gì về lập trình trở thành một web developer chuyên nghiệp. Cảm ơn EduManager rất
+                        nhiều!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                        <div>
+                            <h4>Nguyễn Văn X</h4>
+                            <p>Học viên khóa Lập trình Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Giảng viên rất nhiệt tình và chuyên nghiệp. Tài liệu học tập được
+                        chuẩn bị kỹ lưỡng và dễ hiểu. Tôi đã học được rất nhiều từ khóa học Database."</p>
+                    <div class="testimonial-author">
+                        <img src="~/images/6.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                        <div>
+                            <h4>Trần Thị Y</h4>
+                            <p>Học viên khóa Cơ sở dữ liệu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Giảng viên rất nhiệt tình và chuyên nghiệp. Tài liệu học tập được
+                        chuẩn bị kỹ lưỡng và dễ hiểu. Tôi đã học được rất nhiều từ khóa học Database."</p>
+                    <div class="testimonial-author">
+                        <img src="~/images/7.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+                        <div>
+                            <h4>Trần Như Ngọc</h4>
+                            <p>Học viên khóa An ninh mạng</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="testimonial-text">"Khóa học AI tại EduManager đã mở ra cho tôi một hướng đi mới trong
+                        sự
+                        nghiệp. Kiến thức được truyền đạt rất thực tế và áp dụng được ngay vào công việc."</p>
+                    <div class="testimonial-author">
+                        <img src="~/images/8.webp  " asp-append-version="true" alt="Lập trình cơ bản">
+                        <div>
+                            <h4>Lê Văn Z</h4>
+                            <p>Học viên khóa Trí tuệ nhân tạo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <h2 class="section-title">Câu hỏi thường gặp</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Làm thế nào để đăng ký khóa học?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Để đăng ký khóa học, bạn chỉ cần chọn khóa học mà bạn quan tâm, nhấn vào nút "Đăng ký",
+                            điền thông tin cá nhân và hoàn tất thanh toán. Sau khi đăng ký thành công, bạn sẽ nhận
+                            được email xác nhận và hướng dẫn tham gia khóa học.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Các phương thức thanh toán được chấp nhận?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Chúng tôi chấp nhận nhiều phương thức thanh toán khác nhau bao gồm: chuyển khoản ngân
+                            hàng, thẻ tín dụng/ghi nợ, ví điện tử (MoMo, ZaloPay, VNPay), và thanh toán trực tiếp
+                            tại văn phòng.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Tôi có thể học thử trước khi đăng ký không?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Có, chúng tôi cung cấp các buổi học thử miễn phí cho hầu hết các khóa học. Bạn có thể
+                            đăng ký học thử thông qua website hoặc liên hệ trực tiếp với chúng tôi để được sắp xếp.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Chính sách hoàn tiền như thế nào?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Chúng tôi có chính sách hoàn tiền trong vòng 7 ngày đầu tiên của khóa học nếu bạn không
+                            hài lòng với chất lượng. Tuy nhiên, bạn cần phải tham gia ít nhất 2 buổi học và giải
+                            thích lý do không hài lòng để chúng tôi có thể cải thiện dịch vụ.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Tôi có nhận được chứng chỉ sau khi hoàn thành khóa học không?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Có, sau khi hoàn thành khóa học và đạt yêu cầu đánh giá, bạn sẽ nhận được chứng chỉ hoàn
+                            thành khóa học từ EduManager. Chứng chỉ này có giá trị trong việc chứng minh kỹ năng của
+                            bạn khi xin việc hoặc thăng tiến trong công việc.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+
+<script>
+    // Toggle FAQ answers
+    document.querySelectorAll('.faq-question').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            const isActive = answer.classList.contains('active');
+
+            // Close all answers
+            document.querySelectorAll('.faq-answer').forEach(item => {
+                item.classList.remove('active');
+            });
+
+            // Toggle current answer
+            if (!isActive) {
+                answer.classList.add('active');
+            }
+
+            // Rotate icon
+            document.querySelectorAll('.faq-question i').forEach(icon => {
+                icon.style.transform = 'rotate(0deg)';
+            });
+
+            if (!isActive) {
+                question.querySelector('i').style.transform = 'rotate(180deg)';
+            }
+        });
+    });
+
+    // Video player
+    document.getElementById('videoPlaceholder').addEventListener('click', function () {
+        this.style.display = 'none';
+        const video = document.getElementById('tutorialVideo');
+        video.style.display = 'block';
+        video.play();
+    });
+
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+        document.querySelector('.nav-menu').classList.toggle('active');
+    });
+
+    // Category filter buttons
+    document.querySelectorAll('.category-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+        });
+    });
+</script>

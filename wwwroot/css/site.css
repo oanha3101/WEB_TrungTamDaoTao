@@ -64,7 +64,7 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 .logo-circle {
@@ -198,6 +198,7 @@ footer {
   display: flex;
   align-items: flex-start;
   gap: 10px;
+  margin-right: 10px;
 }
 
 .contact-info svg {
@@ -210,7 +211,7 @@ footer {
   display: flex;
   gap: 15px;
  
-  padding: 15px;
+  padding: 30px;
 }
 
 .social-icon {

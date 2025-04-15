@@ -5,16 +5,20 @@
       "PackagePath": "staticwebassets\\Quan_Ly_TTDT.7mgul10s95.bundle.scp.css"
     },
     {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\auth.css",
+      "PackagePath": "staticwebassets\\css\\auth.css"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\course.css",
+      "PackagePath": "staticwebassets\\css\\course.css"
+    },
+    {
       "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
-    },
-    {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\login.css"
-    },
-    {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\register.css",
-      "PackagePath": "staticwebassets\\css\\register.css"
     },
     {
       "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\site.css",
@@ -23,6 +27,38 @@
     {
       "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\5.jpg"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\6.jpg"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\8.webp",
+      "PackagePath": "staticwebassets\\images\\8.webp"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata1.jpg",
+      "PackagePath": "staticwebassets\\images\\Avata1.jpg"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata2.jpg",
+      "PackagePath": "staticwebassets\\images\\Avata2.jpg"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata3.jpg",
+      "PackagePath": "staticwebassets\\images\\Avata3.jpg"
+    },
+    {
+      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata4.jpg",
+      "PackagePath": "staticwebassets\\images\\Avata4.jpg"
     },
     {
       "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\js\\site.js",
