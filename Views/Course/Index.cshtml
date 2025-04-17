@@ -5,35 +5,61 @@
 @{
     <link rel="stylesheet" href="~/css/course.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 }
 
 <!-- Main Content -->
 <main>
     <div class="container">
-        <h1 class="page-title">Khóa học</h1>
+        <h1 class="page-title">Danh mục khóa học</h1>
+        <section class="category-section"></section>
+        <div class="container">
 
-        <!-- Search and Filter -->
-        <div class="search-filter-container">
-            <div class="search-bar">
-                <i class="fas fa-search"></i>
-                <input type="text" placeholder="Tìm kiếm khóa học...">
+            <p class="subtitle">Khám phá các lĩnh vực đào tạo phổ biến tại trung tâm</p>
+
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Lập trình" />
+                    <h3>Lập trình</h3>
+                    <p>120+ khóa học</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2721/2721293.png" alt="Web Development" />
+                    <h3>Phát triển Web</h3>
+                    <p>98+ khóa học</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2807/2807287.png" alt="Database" />
+                    <h3>Cơ sở dữ liệu</h3>
+                    <p>45+ khóa học</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png" alt="Mobile Dev" />
+                    <h3>Lập trình Mobile</h3>
+                    <p>65+ khóa học</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3275/3275326.png" alt="AI" />
+                    <h3>Trí tuệ nhân tạo</h3>
+                    <p>38+ khóa học</p>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1020/1020467.png" alt="Security" />
+                    <h3>An ninh mạng</h3>
+                    <p>25+ khóa học</p>
+                </div>
             </div>
-            <button class="filter-button">
-                <i class="fas fa-filter"></i>
-                Lọc khóa học
-            </button>
         </div>
+        </section>
 
-        <!-- Category Filters -->
-        <div class="category-filters">
-            <button class="category-btn active">Tất cả</button>
-            <button class="category-btn">Lập trình</button>
-            <button class="category-btn">Web</button>
-            <button class="category-btn">Database</button>
-            <button class="category-btn">Mobile</button>
-            <button class="category-btn">AI</button>
-            <button class="category-btn">Security</button>
-        </div>
+
+
+
 
         <!-- Video Tutorial Section -->
         <section class="video-tutorial">
@@ -63,7 +89,7 @@
                         <div class="step-number">1</div>
                         <div class="step-content">
                             <h4>Tìm kiếm khóa học</h4>
-                            <p>Sử dụng thanh tìm kiếm hoặc bộ lọc để tìm khóa học phù hợp</p>
+                            <p>Xem danh mục khoá học và nhấn vào khoá học bạn quan tâm</p>
                         </div>
                     </div>
                     <div class="step">
@@ -90,6 +116,8 @@
                 </div>
             </div>
         </section>
+
+
 
         <!-- Courses -->
         <h2 class="section-title">Khóa học nổi bật</h2>

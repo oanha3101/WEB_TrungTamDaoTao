@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quan_Ly_TTDT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65d466f56d9e3610abe45cf23448fcfc10d89853")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ba3c8527b09b29196892d54d229f15ebf6e960f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quan_Ly_TTDT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quan_Ly_TTDT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

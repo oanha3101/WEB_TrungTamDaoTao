@@ -5,6 +5,10 @@
 @{
     <link rel="stylesheet" href="~/css/review.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Font Awesome v5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
 }
 
 
@@ -16,8 +20,10 @@
             <p>EduManager - Nền tảng quản lý đào tạo toàn diện giúp tối ưu hóa quy trình, tiết kiệm thời gian và
                 nâng cao hiệu quả</p>
             <div class="hero-buttons">
-                <a href="#lien-he" class="btn btn-light">Liên hệ tư vấn</a>
+
+                <a asp-controller="Contact" asp-action="Index" class="btn btn-light">Liên hệ tư vấn</a>
                 <a href="#dung-thu" class="btn btn-outline-light">Dùng thử miễn phí</a>
+
             </div>
             <div class="stats">
                 <div class="stat-item">
@@ -61,30 +67,41 @@
 <section id="gioi-thieu" class="story-section">
     <div class="container">
         <div class="section-badge">Câu chuyện của chúng tôi</div>
-        <div class="section-content">
-            <h2>Từ ý tưởng đến nền tảng <span class="highlight">quản lý đào tạo hàng đầu</span></h2>
-            <p>EduManager ra đời vào năm 2020 với sứ mệnh đơn giản hóa quy trình quản lý đào tạo cho các trung tâm
-                giáo dục và tổ chức đào tạo tại Việt Nam.</p>
-            <p>Chúng tôi nhận thấy rằng nhiều trung tâm đào tạo vẫn đang sử dụng các phương pháp thủ công hoặc phần
-                mềm không chuyên biệt để quản lý hoạt động, dẫn đến nhiều khó khăn trong việc theo dõi thông tin học
-                viên, khóa học và tài chính.</p>
-            <p>Với đội ngũ phát triển giàu kinh nghiệm trong lĩnh vực giáo dục và công nghệ, chúng tôi đã xây dựng
-                EduManager - một nền tảng toàn diện giúp các trung tâm đào tạo vận hành hiệu quả hơn, tiết kiệm thời
-                gian và nguồn lực.</p>
-            <p>Sau hơn 3 năm phát triển, EduManager hiện đang phục vụ hơn 200 trung tâm đào tạo trên toàn quốc với
-                hơn 50,000 học viên được quản lý trên hệ thống.</p>
-            <div class="team-badge">
-                <div class="team-avatars">
-                    <div class="avatar"></div>
-                    <div class="avatar"></div>
-                    <div class="avatar"></div>
-                    <div class="avatar"></div>
+        <div class="section-wrapper">
+            <div class="section-content">
+                <h2>Từ ý tưởng đến nền tảng <span class="highlight">quản lý đào tạo hàng đầu</span></h2>
+                <p>EduManager ra đời vào năm 2020 với sứ mệnh đơn giản hóa quy trình quản lý đào tạo cho các trung tâm
+                    giáo dục và tổ chức đào tạo tại Việt Nam.</p>
+                <p>Chúng tôi nhận thấy rằng nhiều trung tâm đào tạo vẫn đang sử dụng các phương pháp thủ công hoặc phần
+                    mềm không chuyên biệt để quản lý hoạt động, dẫn đến nhiều khó khăn trong việc theo dõi thông tin học
+                    viên, khóa học và tài chính.</p>
+                <p>Với đội ngũ phát triển giàu kinh nghiệm trong lĩnh vực giáo dục và công nghệ, chúng tôi đã xây dựng
+                    EduManager - một nền tảng toàn diện giúp các trung tâm đào tạo vận hành hiệu quả hơn, tiết kiệm thời
+                    gian và nguồn lực.</p>
+                <p>Sau hơn 3 năm phát triển, EduManager hiện đang phục vụ hơn 200 trung tâm đào tạo trên toàn quốc với
+                    hơn 50,000 học viên được quản lý trên hệ thống.</p>
+                <div class="team-badge">
+                    <div class="team-avatars">
+                        <div class="avatar"> <img src="~/images/Avata1.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                        <div class="avatar"> <img src="~/images/Avata2.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                        <div class="avatar"> <img src="~/images/Avata3.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                        <div class="avatar"> <img src="~/images/Avata4.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                    </div>
+                    <p>Đội ngũ chuyên gia với hơn 20 năm kinh nghiệm trong lĩnh vực giáo dục và công nghệ</p>
                 </div>
-                <p>Đội ngũ chuyên gia với hơn 20 năm kinh nghiệm trong lĩnh vực giáo dục và công nghệ</p>
             </div>
-        </div>
-        <div class="stats-card">
-            <div class="stat-badge">200+ <span>Khách hàng</span></div>
+            <div class="section-image"> <!-- Ảnh nằm bên phải -->
+                <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+
+            </div>
         </div>
     </div>
 </section>
@@ -195,7 +212,7 @@
         <h2>Sẵn sàng nâng cao hiệu quả đào tạo?</h2>
         <p>Hãy liên hệ với chúng tôi ngay hôm nay để được tư vấn giải pháp phù hợp với trung tâm của bạn</p>
         <div class="cta-buttons">
-            <a href="#" class="btn btn-light">Liên hệ ngay</a>
+            <a asp-controller="Contact" asp-action="Index" class="btn btn-light">Liên hệ ngay</a>
             <a href="#" class="btn btn-outline-light">Xem demo</a>
         </div>
         <div class="cta-features">

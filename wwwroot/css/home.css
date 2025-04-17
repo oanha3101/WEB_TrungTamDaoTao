@@ -137,7 +137,8 @@
     }
 
     .feature-card {
-        background: #e354b073;
+        background: #a7d0ff ;
+        /* background: linear-gradient(135deg,#f190cfc9, #a7d0ff ); */
         border-radius: var(--border-radius);
         padding: 40px;
         margin: 30px;

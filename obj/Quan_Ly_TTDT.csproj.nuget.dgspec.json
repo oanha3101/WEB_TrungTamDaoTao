@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Quan_Ly_TTDT\\Quan_Ly_TTDT.csproj": {}
+    "E:\\TrungTamDaoTao\\Quan_Ly_TTDT.csproj": {}
   },
   "projects": {
-    "E:\\Quan_Ly_TTDT\\Quan_Ly_TTDT.csproj": {
+    "E:\\TrungTamDaoTao\\Quan_Ly_TTDT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Quan_Ly_TTDT\\Quan_Ly_TTDT.csproj",
+        "projectUniqueName": "E:\\TrungTamDaoTao\\Quan_Ly_TTDT.csproj",
         "projectName": "Quan_Ly_TTDT",
-        "projectPath": "E:\\Quan_Ly_TTDT\\Quan_Ly_TTDT.csproj",
+        "projectPath": "E:\\TrungTamDaoTao\\Quan_Ly_TTDT.csproj",
         "packagesPath": "C:\\Users\\KOANH\\.nuget\\packages\\",
-        "outputPath": "E:\\Quan_Ly_TTDT\\obj\\",
+        "outputPath": "E:\\TrungTamDaoTao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

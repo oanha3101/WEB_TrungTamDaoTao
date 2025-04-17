@@ -53,38 +53,6 @@
     border-radius: 2px;
 }
 
-.search-filter-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.search-bar {
-    flex: 1;
-    max-width: 1200px;
-    position: relative;
-}
-
-.search-bar input {
-    width: 100%;
-    padding: 15px 20px 15px 45px;
-    border: 1px solid #e2e8f0;
-    border-radius: var(--border-radius);
-    font-size: 16px;
-    background-color: white;
-    box-shadow: var(--shadow);
-    margin-left:30px;
-}
-
-.search-bar i {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #94a3b8;
-}
-
 .filter-button {
     background-color: white;
     border: 1px solid #e2e8f0;
@@ -96,35 +64,6 @@
     cursor: pointer;
     font-weight: 500;
     box-shadow: var(--shadow);
-}
-
-.category-filters {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-    margin-left:30px;
-}
-
-.category-btn {
-    padding: 8px 20px;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: 500;
-    cursor: pointer;
-    background-color: #95c3f6;
-    border: 1px solid #e2e8f0;
-    transition: var(--transition);
-}
-
-.category-btn.active {
-    background-color:#ff52a9;
-    color: white;
-    border-color: #ff52a9;
-}
-
-.category-btn:hover:not(.active) {
-    background-color: #f1f5f9;
 }
 
 /* Video Tutorial Section */
@@ -555,7 +494,8 @@
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
-    color: var(--heading-color);
+    font-size: 18px;
+    color: #002558;
 }
 
 .faq-question i {
@@ -576,3 +516,52 @@
 }
 
 
+/*danh muc*/
+
+  
+  .subtitle {
+    font-size: 16px;
+    color: #7d7d93;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .category-card {
+    background-color:#95c3f6;
+    border-radius: 12px;
+    padding: 50px 30px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .category-card img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 20px;
+  }
+  
+  .category-card h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e1e50;
+    margin: 0 0 10px;
+    line-height: 1.4;
+  }
+  
+  .category-card p {
+    color: #7d7d93;
+    font-size: 14px;
+  }
+  

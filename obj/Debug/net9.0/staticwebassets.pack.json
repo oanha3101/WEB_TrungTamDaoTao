@@ -1,127 +1,131 @@
 {
   "Files": [
     {
-      "Id": "E:\\Quan_Ly_TTDT\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Quan_Ly_TTDT.bundle.scp.css",
+      "Id": "E:\\TrungTamDaoTao\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\Quan_Ly_TTDT.bundle.scp.css",
       "PackagePath": "staticwebassets\\Quan_Ly_TTDT.7mgul10s95.bundle.scp.css"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\auth.css",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\css\\auth.css",
       "PackagePath": "staticwebassets\\css\\auth.css"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\contact.css",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\css\\contact.css",
       "PackagePath": "staticwebassets\\css\\contact.css"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\course.css",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\css\\course.css",
       "PackagePath": "staticwebassets\\css\\course.css"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\home.css",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\css\\site.css",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\css\\review.css",
+      "PackagePath": "staticwebassets\\css\\review.css"
+    },
+    {
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\favicon.ico",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\5.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\5.jpg",
       "PackagePath": "staticwebassets\\images\\5.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\6.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\6.jpg",
       "PackagePath": "staticwebassets\\images\\6.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\7.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\7.jpg",
       "PackagePath": "staticwebassets\\images\\7.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\8.webp",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\8.webp",
       "PackagePath": "staticwebassets\\images\\8.webp"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata1.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\Avata1.jpg",
       "PackagePath": "staticwebassets\\images\\Avata1.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata2.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\Avata2.jpg",
       "PackagePath": "staticwebassets\\images\\Avata2.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata3.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\Avata3.jpg",
       "PackagePath": "staticwebassets\\images\\Avata3.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\images\\Avata4.jpg",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\images\\Avata4.jpg",
       "PackagePath": "staticwebassets\\images\\Avata4.jpg"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\js\\site.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "E:\\Quan_Ly_TTDT\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "E:\\TrungTamDaoTao\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
