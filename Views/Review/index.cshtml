@@ -1,0 +1,242 @@
+@{
+    ViewData["Title"] = "EduManager - Giới thiệu trang web";
+}
+
+@{
+    <link rel="stylesheet" href="~/css/review.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <!-- Font Awesome v5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+}
+
+
+
+<section class="hero-section gradient-bg">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Nâng tầm trải nghiệm đào tạo</h1>
+            <p>EduManager - Nền tảng quản lý đào tạo toàn diện giúp tối ưu hóa quy trình, tiết kiệm thời gian và
+                nâng cao hiệu quả</p>
+            <div class="hero-buttons">
+
+                <a asp-controller="Contact" asp-action="Index" class="btn btn-light">Liên hệ tư vấn</a>
+                <a href="#dung-thu" class="btn btn-outline-light">Dùng thử miễn phí</a>
+
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h2>200+</h2>
+                    <p>Trung tâm đào tạo</p>
+                </div>
+                <div class="stat-item">
+                    <h2>50,000+</h2>
+                    <p>Học viên</p>
+                </div>
+                <div class="stat-item">
+                    <h2>98%</h2>
+                    <p>Khách hàng hài lòng</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wave-divider">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,100L1360,100C1280,100,1120,100,960,100C800,100,640,100,480,100C320,100,160,100,80,100L0,100Z">
+            </path>
+        </svg>
+    </div>
+</section>
+
+<section class="trusted-section">
+    <div class="container">
+        <h3>Được tin dùng bởi các tổ chức hàng đầu</h3>
+        <div class="trusted-logos">
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+            <div class="logo-placeholder"></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="gioi-thieu" class="story-section">
+    <div class="container">
+        <div class="section-badge">Câu chuyện của chúng tôi</div>
+        <div class="section-wrapper">
+            <div class="section-content">
+                <h2>Từ ý tưởng đến nền tảng <span class="highlight">quản lý đào tạo hàng đầu</span></h2>
+                <p>EduManager ra đời vào năm 2020 với sứ mệnh đơn giản hóa quy trình quản lý đào tạo cho các trung tâm
+                    giáo dục và tổ chức đào tạo tại Việt Nam.</p>
+                <p>Chúng tôi nhận thấy rằng nhiều trung tâm đào tạo vẫn đang sử dụng các phương pháp thủ công hoặc phần
+                    mềm không chuyên biệt để quản lý hoạt động, dẫn đến nhiều khó khăn trong việc theo dõi thông tin học
+                    viên, khóa học và tài chính.</p>
+                <p>Với đội ngũ phát triển giàu kinh nghiệm trong lĩnh vực giáo dục và công nghệ, chúng tôi đã xây dựng
+                    EduManager - một nền tảng toàn diện giúp các trung tâm đào tạo vận hành hiệu quả hơn, tiết kiệm thời
+                    gian và nguồn lực.</p>
+                <p>Sau hơn 3 năm phát triển, EduManager hiện đang phục vụ hơn 200 trung tâm đào tạo trên toàn quốc với
+                    hơn 50,000 học viên được quản lý trên hệ thống.</p>
+                <div class="team-badge">
+                    <div class="team-avatars">
+                        <div class="avatar"> <img src="~/images/Avata1.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                        <div class="avatar"> <img src="~/images/Avata2.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                        <div class="avatar"> <img src="~/images/Avata3.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                        <div class="avatar"> <img src="~/images/Avata4.jpg" asp-append-version="true"
+                                alt="Lập trình cơ bản">
+                        </div>
+                    </div>
+                    <p>Đội ngũ chuyên gia với hơn 20 năm kinh nghiệm trong lĩnh vực giáo dục và công nghệ</p>
+                </div>
+            </div>
+            <div class="section-image"> <!-- Ảnh nằm bên phải -->
+                <img src="~/images/5.jpg" asp-append-version="true" alt="Lập trình cơ bản">
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="su-menh" class="mission-section">
+    <div class="container">
+        <div class="section-badge">Sứ mệnh của chúng tôi</div>
+        <h2>Chúng tôi giúp trung tâm đào tạo <span class="highlight">vận hành hiệu quả hơn</span></h2>
+        <p class="section-description">Chúng tôi cam kết cung cấp giải pháp công nghệ hiện đại giúp các trung tâm
+            đào tạo tối ưu hóa quy trình quản lý, nâng cao chất lượng đào tạo và tạo ra trải nghiệm học tập tốt nhất
+            cho học viên.</p>
+
+        <div class="mission-cards">
+            <div class="mission-card pink-gradient">
+                <div class="mission-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3>Đổi mới liên tục</h3>
+                <p>Không ngừng cải tiến và phát triển các tính năng mới để đáp ứng nhu cầu ngày càng cao của khách
+                    hàng.</p>
+            </div>
+
+            <div class="mission-card blue-gradient">
+                <div class="mission-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Hỗ trợ 24/7</h3>
+                <p>Cam kết hỗ trợ khách hàng 24/7 với đội ngũ chuyên nghiệp, tận tâm và am hiểu lĩnh vực giáo dục.
+                </p>
+            </div>
+
+            <div class="mission-card purple-gradient">
+                <div class="mission-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3>Chất lượng hàng đầu</h3>
+                <p>Đảm bảo cung cấp sản phẩm và dịch vụ chất lượng cao, ổn định và bảo mật tuyệt đối.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tinh-nang" class="features-section">
+    <div class="container">
+        <div class="section-badge">Tại sao chọn chúng tôi</div>
+        <h2>Giải pháp <span class="highlight">toàn diện</span> cho trung tâm đào tạo</h2>
+        <p class="section-description">Chúng tôi cung cấp giải pháp toàn diện giúp trung tâm đào tạo của bạn vận
+            hành hiệu quả hơn</p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon pink">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>Dễ dàng sử dụng</h3>
+                <p>Giao diện thân thiện, trực quan giúp người dùng nhanh chóng làm quen và sử dụng hiệu quả.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon blue">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>Quản lý toàn diện</h3>
+                <p>Tích hợp đầy đủ các tính năng quản lý khóa học, học viên, lịch học, tài chính trong một nền tảng
+                    duy nhất.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon purple">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>Báo cáo thống kê chi tiết</h3>
+                <p>Cung cấp các báo cáo, biểu đồ trực quan giúp đưa ra quyết định kinh doanh hiệu quả.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon pink">
+                    <i class="fas fa-sliders-h"></i>
+                </div>
+                <h3>Tùy biến linh hoạt</h3>
+                <p>Dễ dàng tùy chỉnh theo nhu cầu riêng của từng trung tâm đào tạo, phù hợp với mọi quy mô.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon blue">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Bảo mật cao</h3>
+                <p>Đảm bảo an toàn dữ liệu với hệ thống bảo mật đa lớp và tuân thủ các quy định về bảo vệ thông tin.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon purple">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>Hỗ trợ 24/7</h3>
+                <p>Đội ngũ hỗ trợ kỹ thuật chuyên nghiệp, sẵn sàng giải đáp mọi thắc mắc và xử lý sự cố nhanh chóng.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="lien-he" class="cta-section gradient-bg">
+    <div class="container">
+        <h2>Sẵn sàng nâng cao hiệu quả đào tạo?</h2>
+        <p>Hãy liên hệ với chúng tôi ngay hôm nay để được tư vấn giải pháp phù hợp với trung tâm của bạn</p>
+        <div class="cta-buttons">
+            <a asp-controller="Contact" asp-action="Index" class="btn btn-light">Liên hệ ngay</a>
+            <a href="#" class="btn btn-outline-light">Xem demo</a>
+        </div>
+        <div class="cta-features">
+            <div class="cta-feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Dùng thử 14 ngày</span>
+            </div>
+            <div class="cta-feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Hỗ trợ 24/7</span>
+            </div>
+            <div class="cta-feature">
+                <i class="fas fa-check-circle"></i>
+                <span>Cài đặt miễn phí</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    // Simple mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+        document.querySelector('.nav-links').classList.toggle('active');
+        document.querySelector('.nav-buttons').classList.toggle('active');
+    });
+</script>
