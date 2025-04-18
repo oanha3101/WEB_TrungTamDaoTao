@@ -305,3 +305,4 @@ E:\Quan_Ly_TTDT\Quan_Ly_TTDT\obj\Debug\net9.0\refint\Quan_Ly_TTDT.dll
 E:\Quan_Ly_TTDT\Quan_Ly_TTDT\obj\Debug\net9.0\Quan_Ly_TTDT.pdb
 E:\Quan_Ly_TTDT\Quan_Ly_TTDT\obj\Debug\net9.0\Quan_Ly_TTDT.genruntimeconfig.cache
 E:\Quan_Ly_TTDT\Quan_Ly_TTDT\obj\Debug\net9.0\ref\Quan_Ly_TTDT.dll
+E:\Quan_Ly_TTDT\Quan_Ly_TTDT\obj\Debug\net9.0\Quan_Ly_TTDT.sourcelink.json

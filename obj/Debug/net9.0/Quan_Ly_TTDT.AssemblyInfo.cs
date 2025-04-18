@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quan_Ly_TTDT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ea467f6516c47271b63267ab211fe37b51e6f73")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quan_Ly_TTDT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quan_Ly_TTDT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
